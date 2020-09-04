@@ -25,6 +25,8 @@ router.put("/api/workouts/:id", ({ body, params }, res) => {
     });
 });
 
+// test test
+
 router.get("/api/workouts", (req, res) => {
   Workout.find()
   .then(data => {
